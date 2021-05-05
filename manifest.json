@@ -1,0 +1,17 @@
+{
+	"name": "P.S. It's Easy",
+	"description": "Companion extension for P>S> It's Easy",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"icons": {
+		"32": "icon.png",
+		"48": "icon.png",
+		"64": "icon.png",
+		"128": "icon.png"
+	},
+	"permissions": ["activeTab", "scripting"]
+}
