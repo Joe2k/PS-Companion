@@ -13,10 +13,5 @@ function checks() {
 		return false;
 	}
 
-	if (window.__PSZYSET__ === true) {
-		alert('Already ran here once. Please refresh');
-		return false;
-	}
-
 	return true;
 }
