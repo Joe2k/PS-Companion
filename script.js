@@ -1,5 +1,7 @@
 if (checks()) {
-	alert('Working!');
+	const curNode = $('[spn="5861"]').parentNode;
+	curNode.parentNode.appendChild(curNode);
+	correctRanks();
 }
 
 function checks() {
@@ -14,4 +16,15 @@ function checks() {
 	}
 
 	return true;
+}
+
+function $(selector) {
+	const elems = document.querySelectorAll(selector);
+	return elems.length === 1 ? elems[0] : [...elems];
+}
+
+function correctRanks() {
+	$('#sortable_nav > li').forEach((li, index) => {
+		li.querySelector('.sortable-number span').innerText = index + 1;
+	});
 }
