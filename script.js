@@ -45,40 +45,13 @@ function handleClick(input, newDiv) {
 		reader.readAsText(input.files[0]);
 
 		reader.onload = function () {
-			const lis = $('.sortable-number');
+			colorAllRed();
 
-			lis.forEach((li) => {
-				li.style.setProperty('background-color', 'red', 'important');
-				li.style.setProperty('border-color', 'red', 'important');
-			});
 			let result = CSVToArray(reader.result);
 
-			for (let i = 1; i < result.length; i++) {
-				const curNode = $(`[spn="${result[i][0]}"]`).parentNode;
-				if (curNode === undefined) {
-					console.log(station['Station ID']);
-					handleError(newDiv);
-				} else {
-					curNode.parentNode.appendChild(curNode);
-					let li = curNode.childNodes[2];
-					li.style.setProperty(
-						'background-color',
-						'#428bca',
-						'important'
-					);
-					li.style.setProperty(
-						'border-color',
-						'#428bca',
-						'important'
-					);
-				}
-			}
+			rearrange(result);
 			correctRanks();
-			const errorDiv = document.createElement('h5');
-			errorDiv.innerText = 'Successfully Rearranged!';
-			errorDiv.style.color = 'green';
-			errorDiv.classList.add('col-xs-8');
-			newDiv.appendChild(errorDiv);
+			handleSuccess(newDiv);
 		};
 
 		reader.onerror = function () {
@@ -86,6 +59,38 @@ function handleClick(input, newDiv) {
 			handleError(newDiv);
 		};
 	}
+}
+
+function handleSuccess(newDiv) {
+	const successDiv = document.createElement('h5');
+	successDiv.innerText = 'Successfully Rearranged!';
+	successDiv.style.color = 'green';
+	successDiv.classList.add('col-xs-8');
+	newDiv.appendChild(successDiv);
+}
+
+function rearrange(result) {
+	for (let i = 1; i < result.length; i++) {
+		const curNode = $(`[spn="${result[i][0]}"]`).parentNode;
+		if (curNode === undefined) {
+			console.log(station['Station ID']);
+			handleError(newDiv);
+		} else {
+			curNode.parentNode.appendChild(curNode);
+			let li = curNode.childNodes[2];
+			li.style.setProperty('background-color', '#428bca', 'important');
+			li.style.setProperty('border-color', '#428bca', 'important');
+		}
+	}
+}
+
+function colorAllRed() {
+	const lis = $('.sortable-number');
+
+	lis.forEach((li) => {
+		li.style.setProperty('background-color', 'red', 'important');
+		li.style.setProperty('border-color', 'red', 'important');
+	});
 }
 
 function handleError(newDiv) {
