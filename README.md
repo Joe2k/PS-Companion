@@ -26,7 +26,7 @@ FAQ- Where to get the CSV file of problembank?
 
 ## 🎓 Usage
 
-The easiest way to use this is to install is using webstore [here](http://bit.ly/ps-extender). For some reason, if it doesn't work, then follow the <strong>offline install</strong> steps:
+The easiest way to use this is to install is using webstore [here] For some reason, if it doesn't work, then follow the <strong>offline install</strong> steps:
 
 ## :pushpin: Steps to Install
 
