@@ -27,6 +27,9 @@ FAQ- Where to get the CSV file of problembank?
 -   To download the sheet in CSV form, go to File->Download -> Comma separated Values (.csv)
 -   Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
 
+## DISCLAIMER:
+- We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend. 
+
 ## 🎓 Usage
 
 The easiest way to use this is to install is using webstore here(Coming Soon...). Till it gets published to webstore(might take some days) follow the <strong>Steps to Install</strong> below to install manually:
