@@ -1,16 +1,6 @@
 const data = [
 	{
 		FIELD1: 0,
-		'Station ID': 5962,
-		'Station Name':
-			'Electrono Solutions - Embedded Systems / IoT(Bangalore)',
-		Location: 'Bangalore',
-		Domain: 'Electronics',
-		'Project Details':
-			'Project No. 1\nTitle : Projects related to industry standard 4.0 industrial control and automation/App Develoopment\nProject Description : Projects related to industry standard 4.0 industrial control and automation/App Develoopment\nSkills required : -\nPreffered Disciplines : A4, A7,\n\n',
-	},
-	{
-		FIELD1: 1,
 		'Station ID': 4680,
 		'Station Name':
 			'Access Livelihoods Consulting India, Ltd. - Social Sector(Hyderabad)',
@@ -19,6 +9,17 @@ const data = [
 		'Project Details':
 			'Project No. 1\nTitle : Preparation of a Technical Proposal for developing ERP for a Poultry business.\nProject Description : Incorporated in 2005 with the mission to support small and medium social enterprises, ALC India (currently known as AL Group) incubates rural enterprises and offers Consulting solutions. Their clients include NGOs, microfinance institutions, funding agencies, consulting organizations, government departments, community-based organizations, Panchayat Raj institutions, and policy support agencies. ALC India has so far incubated 54 social enterprises across five states. ALC strongly believes that technology applied correctly can make a big impact on rural lives and livelihoods. ALC has made pioneering efforts in reimaging technology for rural enterprises. Developing one of its kind Enterprise Software for Handloom weavers of Andhra and Telangana is an example. Currently, ALC has incubated a poultry business in Gondia, Maharastra with 300 farmer members. ALC intends to develop an ERP system to assist the smooth and efficient functioning of the business. The project would require the intern to develop a technical proposal for the same.* Other competencies : interest in learning how technology impacts the way in which enterprises do business.* outcomes : The deliverables of the projects will be, Document Poultry business model though workflow charts Identify how IT can applied to improve efficiency and traceability in the business processes.Identify Key user roles and documents in the business processes.Make a Cost/Benefit analysis of implementing an Enterprise Software to the businessSuggest technical Framework for the Enterprise Software based on market practices.\nSkills required : Basic Understanding of Enterprise Software , Presentation , research , Strong Communication & Analytical Skills\nPreffered Disciplines : Any\n\n',
 	},
+	{
+		FIELD1: 1,
+		'Station ID': 5962,
+		'Station Name':
+			'Electrono Solutions - Embedded Systems / IoT(Bangalore)',
+		Location: 'Bangalore',
+		Domain: 'Electronics',
+		'Project Details':
+			'Project No. 1\nTitle : Projects related to industry standard 4.0 industrial control and automation/App Develoopment\nProject Description : Projects related to industry standard 4.0 industrial control and automation/App Develoopment\nSkills required : -\nPreffered Disciplines : A4, A7,\n\n',
+	},
+
 	{
 		FIELD1: 2,
 		'Station ID': 5886,

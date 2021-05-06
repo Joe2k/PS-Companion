@@ -1,0 +1,17 @@
+body {
+	width: 200px;
+	height: 200px;
+}
+div {
+	width: 100%;
+	height: 100%;
+	background-color: #121212;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	margin: 20px;
+	color: #fff;
+}
+button {
+	height: 50px;
+}
