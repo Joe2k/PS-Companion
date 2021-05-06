@@ -26,7 +26,7 @@ FAQ- Where to get the CSV file of problembank?
 
 ## 🎓 Usage
 
-The easiest way to use this is to install is using webstore [here] For some reason, if it doesn't work, then follow the <strong>offline install</strong> steps:
+The easiest way to use this is to install is using webstore here(Coming Soon...). For some reason, if it doesn't work, then follow the <strong>Steps to Install</strong> below:
 
 ## :pushpin: Steps to Install
 
