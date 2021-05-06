@@ -23,7 +23,7 @@ FAQ- Where to get the CSV file of problembank?
 -   Installing the extension will provide a link in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx) to a google sheet which contains the latest station details (or you can click [here](https://docs.google.com/spreadsheets/d/1oNBnFrHKRKSzEYrBkupsHHwZmpyOwM8KbdX4kddzdts/edit?fbclid=IwAR066oc3-wN1oqfnTM0Bh-nicHeG58XNIWGL-fRgcpR8Xf3eiN35csT0uik#gid=1761582184) to access the same google sheet).
 -   Go to file-> make a copy.
 -   Sort the rows of the sheet in the preference order you want.
--   Do not change/delete any colomns. Only rearrange with the rows.
+-   Do not change/delete any columns. Only rearrange with the rows.
 -   To download the sheet in CSV form, go to File->Download -> Comma separated Values (.csv)
 -   Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
 
