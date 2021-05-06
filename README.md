@@ -15,6 +15,13 @@
 
 👉 Upload CSV file with your preferences in order which will update your PSD website preference list.
 
+FAQ- Where to get the CSV file of problembank? 
+
+- Installing the extension will provide a link in the "Fill station preferences page" to a google sheet. 
+- Go to file-> make a copy.
+- Sort the rows of the sheet in the preference order you want
+- to download the sheet in CSV form, go to File->Download -> Comma separated Values (.csv)
+
 ## 🎓 Usage
 
 The easiest way to use this is to install is using webstore [here](http://bit.ly/ps-extender). For some reason, if it doesn't work, then follow the <strong>offline install</strong> steps:
