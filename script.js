@@ -49,7 +49,7 @@ function handleClick(input, newDiv) {
 
 			let result = CSVToArray(reader.result);
 
-			rearrange(result);
+			rearrange(result, newDiv);
 			correctRanks();
 			handleSuccess(newDiv);
 		};
@@ -69,12 +69,12 @@ function handleSuccess(newDiv) {
 	newDiv.appendChild(successDiv);
 }
 
-function rearrange(result) {
+function rearrange(result, newDiv) {
 	for (let i = 1; i < result.length; i++) {
 		const curNode = $(`[spn="${result[i][0]}"]`).parentNode;
 		if (curNode === undefined) {
-			console.log(station['Station ID']);
-			handleError(newDiv);
+			console.log(i, result[i][0]);
+			//handleError(newDiv);
 		} else {
 			curNode.parentNode.appendChild(curNode);
 			let li = curNode.childNodes[2];
