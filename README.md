@@ -33,9 +33,9 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 -   Click [here](https://github.com/Joe2k/PS-Companion/raw/master/psCompanion.zip) to download the extension ZIP file and Unzip it to a folder.
 -   Type chrome://extensions/ in your URL
 -   Make sure your develepoer mode on the right side is checked.
-    ![Dev Mode](resources/devmode.png)
--   Then Click on "Load unpacked"  
-    ![Load](resources/load.png)
+    -   ![Dev Mode](resources/devmode.png)
+-   Then Click on "Load unpacked"
+    -   ![Load](resources/load.png)
 -   Locate the folder you just extracted the zip file into.
 -   Visit/Refresh your PSD page and click on the extension icon in your toolbar.
 -   You should now see an interface on the top to upload the file with a button.
