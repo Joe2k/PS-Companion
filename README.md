@@ -42,3 +42,8 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 -   Locate the folder you just extracted the zip file into.
 -   Visit/Refresh your PSD page and click on the extension icon in your toolbar.
 -   You should now see an interface on the top to upload the file with a button.
+
+## :camera: Screenshots
+
+![Screenshot 1](resources/ss1.png)
+![Screenshot 2](resources/ss2.png)
