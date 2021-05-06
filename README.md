@@ -4,8 +4,10 @@
     </a>
     <br /><br />
     <h1><code>PS Companion</code></h1>
-    [![Visits Badge](https://badges.pufler.dev/visits/Joe2k/PS-Companion)](https://github.com/Joe2k/Joe2k?color=blue)
+    
 <h4>Extension to help in filling preferences for Practice School, BITS-Pilani.</h4>
+
+[![Visits Badge](https://badges.pufler.dev/visits/Joe2k/PS-Companion)](https://github.com/Joe2k/Joe2k?color=blue)
 
 <!-- ![GitHub stars](https://img.shields.io/github/stars/mehulmpt/ps-extender?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/mehulmpt/ps-extender?label=Watch&style=social) -->
