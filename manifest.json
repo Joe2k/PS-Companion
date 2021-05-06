@@ -1,6 +1,6 @@
 {
-	"name": "P.S. It's Easy",
-	"description": "Companion extension for P.S. It's Easy",
+	"name": "PS Companion",
+	"description": "Extention for the students of BITS, Pilani to upload their preferrences easily to the Practice School Division's Portal.",
 	"version": "1.0",
 	"manifest_version": 3,
 	"action": {},
