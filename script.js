@@ -10,7 +10,7 @@ function createUI() {
 
 	const textDiv = document.createElement('h5');
 	textDiv.innerText =
-		'Choose the CSV file you wanna upload and click Aplly Changes Button.';
+		'Choose the CSV file you want to upload and click Apply Changes Button.';
 	textDiv.classList.add('col-xs-8');
 	newDiv.appendChild(textDiv);
 
@@ -31,6 +31,14 @@ function createUI() {
 	});
 
 	newDiv.appendChild(button);
+	const textDiv2 = document.createElement('a');
+	textDiv2.href =
+		'https://docs.google.com/spreadsheets/d/1oNBnFrHKRKSzEYrBkupsHHwZmpyOwM8KbdX4kddzdts/edit?fbclid=IwAR066oc3-wN1oqfnTM0Bh-nicHeG58XNIWGL-fRgcpR8Xf3eiN35csT0uik#gid=1761582184';
+	textDiv2.innerText =
+		'Click here to download the latest Station Details in CSV';
+	textDiv2.classList.add('col-xs-12');
+	textDiv2.target = '_blank';
+	newDiv.appendChild(textDiv2);
 	newDiv.style.margin = '20px';
 	mainDiv.insertBefore(newDiv, mainDiv.firstChild);
 	window.__PSZYSET__ = true;
@@ -65,8 +73,14 @@ function handleSuccess(newDiv) {
 	const successDiv = document.createElement('h5');
 	successDiv.innerText = 'Successfully Rearranged!';
 	successDiv.style.color = 'green';
-	successDiv.classList.add('col-xs-8');
+	successDiv.classList.add('col-xs-12');
 	newDiv.appendChild(successDiv);
+	const warningDiv = document.createElement('h5');
+	warningDiv.innerText =
+		'If you see some of the numbers in red it means that they were not there in your CSV file which you uploaded. That inturn either means they are newly added stations and were not yet added in the project bank or have been removed from the project bank but have not yet been removed from here. So rearrange those choices according to your wish before you click on Save All Preferences.';
+	warningDiv.style.color = 'red';
+	warningDiv.classList.add('col-xs-12');
+	newDiv.appendChild(warningDiv);
 }
 
 function rearrange(result, newDiv) {
