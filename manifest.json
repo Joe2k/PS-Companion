@@ -3,9 +3,7 @@
 	"description": "Companion extension for P.S. It's Easy",
 	"version": "1.0",
 	"manifest_version": 3,
-	"action": {
-		"default_popup": "popup.html"
-	},
+	"action": {},
 	"background": {
 		"service_worker": "background.js"
 	},
