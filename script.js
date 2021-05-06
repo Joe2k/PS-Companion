@@ -45,7 +45,12 @@ function createUI() {
 }
 
 function handleClick(input, newDiv) {
-	if (input.files.length === 0 || input.files[0].type !== 'text/csv') {
+	if (
+		input.files.length === 0 ||
+		(input.files[0].type !== 'text/csv' &&
+			input.files[0].type !== 'application/vnd.ms-excel')
+	) {
+		console.log(input.files);
 		handleError(newDiv);
 	} else {
 		let reader = new FileReader();
