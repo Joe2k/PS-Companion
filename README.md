@@ -35,7 +35,7 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 
 -   Click [here](https://github.com/Joe2k/PS-Companion/raw/master/psCompanion.zip) to download the extension ZIP file and Unzip it to a folder.
 -   Type chrome://extensions/ in your URL
--   Make sure your develepoer mode on the right side is checked.
+-   Make sure your developer mode on the right side is checked.
     -   ![Dev Mode](resources/devmode.png)
 -   Then Click on "Load unpacked"
     -   ![Load](resources/load.png)
