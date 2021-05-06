@@ -1,12 +1,13 @@
 {
 	"name": "P.S. It's Easy",
-	"description": "Companion extension for P>S> It's Easy",
+	"description": "Companion extension for P.S. It's Easy",
 	"version": "1.0",
-	"manifest_version": 2,
-	"browser_action": {},
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html"
+	},
 	"background": {
-		"scripts": ["background.js"],
-		"persistent": false
+		"service_worker": "background.js"
 	},
 	"icons": {
 		"16": "icon.png",
