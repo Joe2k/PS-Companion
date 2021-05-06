@@ -45,5 +45,5 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 
 ## :camera: Screenshots
 
-![Screenshot 1](resources/ss1.png)
-![Screenshot 2](resources/ss2.png)
+![Screenshot 1](resources/SS1.png)
+![Screenshot 2](resources/SS2.png)
