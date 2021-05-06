@@ -4810,6 +4810,11 @@ if (checks()) {
 					}
 				}
 				correctRanks();
+				const errorDiv = document.createElement('h5');
+				errorDiv.innerText = 'Successfully Rearranged!';
+				errorDiv.style.color = 'green';
+				errorDiv.classList.add('col-xs-8');
+				newDiv.appendChild(errorDiv);
 			};
 
 			reader.onerror = function () {
