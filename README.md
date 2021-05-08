@@ -14,11 +14,11 @@
 
 </div>
 
+** The Bug Faced by many users with the type error has been fixed. Please download the new zip file and follow the same process **
+
 <p>With this extension, you can:</p>
 
 👉 Upload CSV file with your preferences in order which will update your PSD website preference list.
-
-** BUG FOUND IN WINDOWS. WILL BE SORTED BY MORNING OF 9TH MAY. Sorry for inconvenience. We dont use windows, and dint realise. IF you have already sorted your sheet, Use https://github.com/rutvora/PS_Helper on the same sheet, rename the file as stationDetails.csv**
 
 FAQ- Where to get the CSV file of problembank?
 
@@ -29,13 +29,15 @@ FAQ- Where to get the CSV file of problembank?
 -   To download the sheet in CSV form, go to File->Download -> Comma separated Values (.csv)
 -   Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
 
-__For Best results, use Google sheets__
+**For Best results, use Google sheets**
 
-[Note: If you are using librecalc then  save csv with just comma as the separator as  the default is comma+tab. Or best avoid using Librecalc]
+[Note: If you are using librecalc then save csv with just comma as the separator as the default is comma+tab. Or best avoid using Librecalc]
 
 ## DISCLAIMER:
-- We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend. 
-- **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We are arent responisble if anything goes wrong. So  please please please recheck your order  from the download button on PSMS homepage under "component status"**
+
+-   We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend.
+-   **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We aren't responisble if anything goes wrong. We are just trying to make your lives easier. So please please please recheck your order from the download button on PSMS homepage under "component status"**
+-   In case you face any difficulties please don't hesitate to text any one of us :)
 
 ## 🎓 Usage
 
@@ -60,4 +62,4 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 
 ## Feedback
 
-- If you find that its not working for you, do ping us on facebook. Itll help us resolve the issue and prevent others from getting stuck at the same thing.
+-   If you find that its not working for you, do ping us on facebook. Itll help us resolve the issue and prevent others from getting stuck at the same thing.
