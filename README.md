@@ -31,7 +31,7 @@ FAQ- Where to get the CSV file of problembank?
 
 ## DISCLAIMER:
 - We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend. 
-- We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We are arent responisble if anything goes wrong. So  please please please recheck your order  from the download button on PSMS homepage under "component status"
+- **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We are arent responisble if anything goes wrong. So  please please please recheck your order  from the download button on PSMS homepage under "component status"**
 
 ## 🎓 Usage
 
