@@ -18,6 +18,8 @@
 
 👉 Upload CSV file with your preferences in order which will update your PSD website preference list.
 
+** BUG FOUND IN WINDOWS. WILL BE SORTED BY MORNING OF 9TH MAY. Sorry for inconvenience. We dont use windows, and dint realise. IF you have already sorted your sheet, Use https://github.com/rutvora/PS_Helper on the same sheet, rename the file as stationDetails.csv**
+
 FAQ- Where to get the CSV file of problembank?
 
 -   Installing the extension will provide a link in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx) to a google sheet which contains the latest station details (or you can click [here](https://docs.google.com/spreadsheets/d/1oNBnFrHKRKSzEYrBkupsHHwZmpyOwM8KbdX4kddzdts/edit?fbclid=IwAR066oc3-wN1oqfnTM0Bh-nicHeG58XNIWGL-fRgcpR8Xf3eiN35csT0uik#gid=1761582184) to access the same google sheet).
@@ -27,8 +29,13 @@ FAQ- Where to get the CSV file of problembank?
 -   To download the sheet in CSV form, go to File->Download -> Comma separated Values (.csv)
 -   Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
 
+__For Best results, use Google sheets__
+
+[Note: If you are using librecalc then  save csv with just comma as the separator as  the default is comma+tab. Or best avoid using Librecalc]
+
 ## DISCLAIMER:
 - We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend. 
+- **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We are arent responisble if anything goes wrong. So  please please please recheck your order  from the download button on PSMS homepage under "component status"**
 
 ## 🎓 Usage
 
@@ -50,3 +57,7 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 
 ![Screenshot 1](resources/SS1.png)
 ![Screenshot 2](resources/SS2.png)
+
+## Feedback
+
+- If you find that its not working for you, do ping us on facebook. Itll help us resolve the issue and prevent others from getting stuck at the same thing.
