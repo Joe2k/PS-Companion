@@ -18,7 +18,7 @@
 
 👉 Upload CSV file with your preferences in order which will update your PSD website preference list.
 
-** BUG FOUND IN WINDOWS. WILL BE SORTED BY MORNING OF 9TH MAY. Sorry for inconvenience. We dont use windows, and dint realise. **
+** BUG FOUND IN WINDOWS. WILL BE SORTED BY MORNING OF 9TH MAY. Sorry for inconvenience. We dont use windows, and dint realise. IF you have already sorted your sheet, Use https://github.com/rutvora/PS_Helper on the same sheet, rename the file as stationDetails.csv**
 
 FAQ- Where to get the CSV file of problembank?
 
