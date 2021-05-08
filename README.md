@@ -14,7 +14,7 @@
 
 </div>
 
-** The Bug Faced by many users with the type error has been fixed. Please download the new zip file and follow the same process **
+**The Bug Faced by many users with the type error has been fixed. Please download the new zip file and follow the same process**
 
 <p>With this extension, you can:</p>
 
