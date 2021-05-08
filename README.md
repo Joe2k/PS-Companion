@@ -55,3 +55,7 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 
 ![Screenshot 1](resources/SS1.png)
 ![Screenshot 2](resources/SS2.png)
+
+## Feedback
+
+- If you find that its not working for you, do ping us on facebook. Itll help us resolve the issue and prevent others from getting stuck at the same thing.
