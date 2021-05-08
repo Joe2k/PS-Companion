@@ -31,13 +31,7 @@ FAQ- Where to get the CSV file of problembank?
 
 **For Best results, use Google sheets**
 
-[Note: If you are using librecalc then save csv with just comma as the separator as the default is comma+tab. Or best avoid using Librecalc]
-
-## DISCLAIMER:
-
--   We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend.
--   **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We aren't responisble if anything goes wrong. We are just trying to make your lives easier. So please please please recheck your order from the download button on PSMS homepage under "component status"**
--   In case you face any difficulties please don't hesitate to text any one of us :)
+[Note: If you are using librecalc then save csv with just comma as the separator as the default is comma+tab]
 
 ## 🎓 Usage
 
@@ -54,6 +48,12 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 -   Locate the folder you just extracted the zip file into.
 -   Visit/Refresh your PSD page and click on the extension icon in your toolbar.
 -   You should now see an interface on the top to upload the file with a button.
+
+## DISCLAIMER:
+
+-   We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend.
+-   **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We aren't responisble if anything goes wrong. We are just trying to make your lives easier. So please please please recheck your order from the download button on PSMS homepage under "component status"**
+-   In case you face any difficulties please don't hesitate to text any one of us :)
 
 ## :camera: Screenshots
 
