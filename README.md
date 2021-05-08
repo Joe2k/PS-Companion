@@ -18,6 +18,8 @@
 
 👉 Upload CSV file with your preferences in order which will update your PSD website preference list.
 
+** BUG FOUND IN WINDOWS. WILL BE SORTED BY MORNING OF 9TH MAY. Sorry for inconvenience. We dont use windows, and dint realise. **
+
 FAQ- Where to get the CSV file of problembank?
 
 -   Installing the extension will provide a link in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx) to a google sheet which contains the latest station details (or you can click [here](https://docs.google.com/spreadsheets/d/1oNBnFrHKRKSzEYrBkupsHHwZmpyOwM8KbdX4kddzdts/edit?fbclid=IwAR066oc3-wN1oqfnTM0Bh-nicHeG58XNIWGL-fRgcpR8Xf3eiN35csT0uik#gid=1761582184) to access the same google sheet).
