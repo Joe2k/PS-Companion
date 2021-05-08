@@ -47,8 +47,9 @@ function createUI() {
 function handleClick(input, newDiv) {
 	if (
 		input.files.length === 0 ||
-		(input.files[0].type !== 'text/csv' &&
-			input.files[0].type !== 'application/vnd.ms-excel')
+		input.files[0].name.split('.')[
+			input.files[0].name.split('.').length - 1
+		] !== 'csv'
 	) {
 		console.log(input.files);
 		handleError(newDiv);
