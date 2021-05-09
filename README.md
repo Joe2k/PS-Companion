@@ -4,12 +4,23 @@
     </a>
     <br /><br />
     <h1><code>PS Companion</code></h1>
-    
-<h4>Extension to help in filling preferences for Practice School, BITS-Pilani.</h4>
 
-[![Visits Badge](https://badges.pufler.dev/visits/Joe2k/PS-Companion)](https://github.com/Joe2k/PS-Companion)
+<h2>Extension to help in filling preferences for Practice School, BITS-Pilani.</h2>
 
-<!-- [![Web Store Badge](https://img.shields.io/chrome-web-store/v/jaleeakcpipiimnpmbjlimcgmojdjdad?style=for-the-badge)](https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad) -->
+<!-- [![Visits Badge](https://badges.pufler.dev/visits/Joe2k/PS-Companion?style=for-the-badge&color=red)](https://github.com/Joe2k/PS-Companion)
+
+[![Web Store Badge](https://img.shields.io/chrome-web-store/v/jaleeakcpipiimnpmbjlimcgmojdjdad?style=for-the-badge)](https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad)
+
+[![Updated Badge](https://badges.pufler.dev/updated/Joe2k/PS-Companion?style=for-the-badge)](https://github.com/Joe2k/PS-Companion) -->
+
+<p float="left">
+<a href="https://github.com/Joe2k/PS-Companion">
+<img src="https://badges.pufler.dev/visits/Joe2k/PS-Companion?style=for-the-badge&color=red" /></a>
+<a href="https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad">
+<img src="https://img.shields.io/chrome-web-store/v/jaleeakcpipiimnpmbjlimcgmojdjdad?style=for-the-badge" /> </a>
+<a href="https://github.com/Joe2k/PS-Companion">
+<img src="https://badges.pufler.dev/updated/Joe2k/PS-Companion?style=for-the-badge"  /></a>
+</p>
 
 <!-- ![GitHub stars](https://img.shields.io/github/stars/mehulmpt/ps-extender?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/mehulmpt/ps-extender?label=Watch&style=social) -->
