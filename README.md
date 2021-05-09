@@ -31,7 +31,7 @@
 
 ## 🎓 Usage
 
-The easiest way to use this is to install is using webstore.
+The easiest way to use this is to install is using webstore. If you have MS excel installed on your system, please install the extension manually as the bug fix hasnt been pushed yet.
 
 Follow the <strong>Steps to Install</strong> below to install manually:
 
