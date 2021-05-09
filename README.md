@@ -47,7 +47,7 @@ The easiest way to use this is to install is using webstore here(Coming Soon...)
 
 [Note: If you are using librecalc then save csv with just comma as the separator as the default is comma+tab]
 
-## DISCLAIMER:
+## :warning: Disclaimer:
 
 -   We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend.
 -   **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We aren't responisble if anything goes wrong. We are just trying to make your lives easier. So please please please recheck your order from the download button on PSMS homepage under "component status"**
