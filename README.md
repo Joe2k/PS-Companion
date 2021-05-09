@@ -31,7 +31,7 @@
 
 ## 🎓 Usage
 
-The easiest way to use this is to install is using webstore here.
+The easiest way to use this is to install is using webstore.
 
 Follow the <strong>Steps to Install</strong> below to install manually:
 
