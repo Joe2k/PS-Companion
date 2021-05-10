@@ -31,7 +31,7 @@
 
 ## 🎓 Usage
 
-The easiest way to use this is to install it using chrome webstore. If you have MS excel installed on your system, please install the extension manually as the bug fix hasn't been released in the chrome webstore yet.
+The easiest way to use this is to install it using chrome webstore [here](https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad).
 
 Follow the <strong>Steps to Install</strong> below to install manually:
 
