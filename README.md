@@ -29,36 +29,13 @@
 
 👉 With this extension, you can upload a CSV file with your preferences in order which will update your PSD website preference list.
 
-## 🎓 Usage
+## 🎓 **How to Use?**
 
-The easiest way to use this is to install it using chrome webstore [here](https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad).
-
-Follow the <strong>Steps to Install</strong> below to install manually:
-
-## :pushpin: Steps to Install
-
--   Click [here](https://github.com/Joe2k/PS-Companion/raw/master/psCompanion.zip) to download the extension ZIP file and Unzip it to a folder.
--   Type chrome://extensions/ in your URL
--   Make sure your developer mode on the right side is checked.
-    -   ![Dev Mode](resources/devmode.png)
--   Then Click on "Load unpacked"
-    -   ![Load](resources/load.png)
--   Locate the folder you just extracted the zip file into.
--   Visit/Refresh your PSD page and click on the extension icon in your toolbar.
--   You should now see an interface on the top to upload the file with a button.
-
-## :question: FAQ- Where to get the CSV file of problembank?
-
--   Installing the extension will provide a link in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx) to a google sheet which contains the latest station details (or you can click [here](https://docs.google.com/spreadsheets/d/1oNBnFrHKRKSzEYrBkupsHHwZmpyOwM8KbdX4kddzdts/edit?fbclid=IwAR066oc3-wN1oqfnTM0Bh-nicHeG58XNIWGL-fRgcpR8Xf3eiN35csT0uik#gid=1761582184) to access the same google sheet).
--   Go to file-> make a copy.
--   Sort the rows of the sheet in the preference order you want.
--   Do not change/delete any columns. Only rearrange with the rows.
--   To download the sheet in CSV form, go to File->Download -> Comma separated Values (.csv)
--   Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
-
-**For Best results, use Google sheets**
-
-[Note: If you are using librecalc then save csv with just comma as the separator as the default is comma+tab]
+1. Install the extension from [Chrome Webstore](https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad)
+2. Download the latest Station Details CSV from the new web app [psitseasy.ml](https://psitseasy.ml/) in the Project Bank Page.
+3. Sort the rows of the sheet in the preference order you want. Do not change/delete any columns. Only rearrange with the rows.
+4. Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
+5. Once in the Fill Station Preferences page click on the installed extension and a new section will appear on the top which you can use to upload the CSV file and click on Apply Changes! button.
 
 ## :warning: Disclaimer:
 
@@ -71,6 +48,18 @@ Follow the <strong>Steps to Install</strong> below to install manually:
 ![Screenshot 1](resources/SS1.png)
 ![Screenshot 2](resources/SS2.png)
 
+## :pushpin: Steps to Install Manually (_Not Recommended_)
+
+-   Click [here](https://github.com/Joe2k/PS-Companion/raw/master/psCompanion.zip) to download the extension ZIP file and Unzip it to a folder.
+-   Type chrome://extensions/ in your URL
+-   Make sure your developer mode on the right side is checked.
+    -   ![Dev Mode](resources/devmode.png)
+-   Then Click on "Load unpacked"
+    -   ![Load](resources/load.png)
+-   Locate the folder you just extracted the zip file into.
+-   Visit/Refresh your PSD page and click on the extension icon in your toolbar.
+-   You should now see an interface on the top to upload the file with a button.
+
 ## Feedback
 
--   If you find that its not working for you, do ping us on facebook. Itll help us resolve the issue and prevent others from getting stuck at the same thing.
+-   If you find that its not working for you, do ping us on facebook. It'll help us resolve the issue and prevent others from getting stuck at the same thing.
