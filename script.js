@@ -32,10 +32,9 @@ function createUI() {
 
 	newDiv.appendChild(button);
 	const textDiv2 = document.createElement('a');
-	textDiv2.href =
-		'https://docs.google.com/spreadsheets/d/1oNBnFrHKRKSzEYrBkupsHHwZmpyOwM8KbdX4kddzdts/edit?fbclid=IwAR066oc3-wN1oqfnTM0Bh-nicHeG58XNIWGL-fRgcpR8Xf3eiN35csT0uik#gid=1761582184';
+	textDiv2.href = 'https://psitseasy.ml/projectBank';
 	textDiv2.innerText =
-		'Click here to download the latest Station Details in CSV';
+		'Click here to download the latest Station Details in CSV from Project Bank at psitseasy.ml';
 	textDiv2.classList.add('col-xs-12');
 	textDiv2.target = '_blank';
 	newDiv.appendChild(textDiv2);

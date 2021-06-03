@@ -1,7 +1,7 @@
 {
 	"name": "PS Companion",
 	"description": "Chrome Extention for the students of BITS, Pilani to upload their preferences easily to the Practice School Division's Portal.",
-	"version": "1.1",
+	"version": "1.2",
 	"manifest_version": 3,
 	"action": {},
 	"background": {
