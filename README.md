@@ -27,7 +27,12 @@
 
 </div>
 
-👉 With this extension, you can upload a CSV file with your preferences in order which will update your PSD website preference list.
+👉 **_With this extension, you can upload a CSV file with your preferences in order which will update your PSD website preference list._**
+
+## :camera: Screenshots (New Features and UI - v1.3)
+
+![Screenshot 1](resources/SS4.png)
+![Screenshot 2](resources/SS3.png)
 
 ## 🎓 **How to Use?**
 
@@ -37,16 +42,17 @@
 4. Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
 5. Once in the Fill Station Preferences page click on the installed extension and a new section will appear on the top which you can use to upload the CSV file and click on Apply Changes! button.
 
+## :new: New Features
+
+-   Some new features have been added to this extension cause there were many feedback on many stations were not there in problem bank CSV which was there in preference list page and it was tough to drag and drop them. Therefore we made some new features to help you out rearranging them too.
+
+-   These features are for now available only in the manual install. We have published to Chrome Store and the update is in review. Till then you can use these new features by following the manual install steps below.
+
 ## :warning: Disclaimer:
 
 -   We arent collecting any information. Your tokens, credentials and CSV file is not taken. The CSV file is processed at frontend.
 -   **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We aren't responisble if anything goes wrong. We are just trying to make your lives easier. So please please please recheck your order from the download button on PSMS homepage under "component status"**
 -   In case you face any difficulties please don't hesitate to text any one of us :)
-
-## :camera: Screenshots
-
-![Screenshot 1](resources/SS1.png)
-![Screenshot 2](resources/SS2.png)
 
 ## :pushpin: Steps to Install Manually (_Not Recommended_)
 
