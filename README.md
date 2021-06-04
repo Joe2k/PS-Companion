@@ -36,7 +36,7 @@
 
 ## 🎓 **How to Use?**
 
-1. Install the extension from [Chrome Webstore](https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad)
+1. Install the extension from [Chrome Webstore](https://chrome.google.com/webstore/detail/ps-companion/jaleeakcpipiimnpmbjlimcgmojdjdad) (**_Does not have new features and UI yet. Go for manual install if you want the new features_**)
 2. Download the latest Station Details CSV from the new web app [psitseasy.ml](https://psitseasy.ml/) in the Project Bank Page.
 3. Sort the rows of the sheet in the preference order you want. Do not change/delete any columns. Only rearrange with the rows.
 4. Now you are ready to upload it in the [Fill station preferences page](http://psd.bits-pilani.ac.in/Student/StudentStationPreference.aspx)
@@ -54,7 +54,7 @@
 -   **We have tested the extension a lot, and it works for most/all people. But in anycase please download your pref list form PSMS homepage, and recheck if the order is right. We aren't responisble if anything goes wrong. We are just trying to make your lives easier. So please please please recheck your order from the download button on PSMS homepage under "component status"**
 -   In case you face any difficulties please don't hesitate to text any one of us :)
 
-## :pushpin: Steps to Install Manually (_Not Recommended_)
+## :pushpin: Steps to Install Manually (_Has new features and UI_)
 
 -   Click [here](https://github.com/Joe2k/PS-Companion/raw/master/psCompanion.zip) to download the extension ZIP file and Unzip it to a folder.
 -   Type chrome://extensions/ in your URL
