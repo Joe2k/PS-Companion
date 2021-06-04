@@ -44,7 +44,7 @@
 
 ## :new: New Features
 
--   Some new features have been added to this extension cause there were many feedback on many stations were not there in problem bank CSV which was there in preference list page and it was tough to drag and drop them. Therefore we made some new features to help you out rearranging them too.
+-   There were many feedback on many stations were not there in problem bank CSV which was there in preference list page and therefore all of like ~60 stations was on top with red color on them and it was tough to drag and drop them to wherever you wanted. Therefore we made some new features to help you out rearranging them by asking the domain preferences and putting only the needed domain stations on top making it easy to rearrange.
 
 -   These features are for now available only in the manual install. We have published to Chrome Store and the update is in review. Till then you can use these new features by following the manual install steps below.
 
