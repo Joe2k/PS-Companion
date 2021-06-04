@@ -175,9 +175,7 @@ function rearrange(result, newDiv) {
 		} else {
 			curNode.parentNode.appendChild(curNode);
 			let text_node = curNode.childNodes[0];
-			console.log(result[i])
 			text_node.innerHTML = `${result[i][3]}, ${result[i][1]}, ${result[i][2]}, ₹${result[i][5]}, (${result[i][4]})` ;
-			console.log(curNode.innerHTML);
 			let li = curNode.childNodes[2];
 			li.style.setProperty('background-color', '#428bca', 'important');
 			li.style.setProperty('border-color', '#428bca', 'important');
