@@ -52,12 +52,13 @@ function createUI() {
 	domainLabel.innerText = 'Select Domains';
 	domainLabel.style.fontSize = '16px';
 	const domainSelect = document.createElement('select');
+	domainSelect.id = 'domain';
 	domainSelect.classList.add('form-select');
 	domainSelect.setAttribute('multiple', true);
 	const op1 = document.createElement('option');
 	op1.innerText = 'Chemical';
 	const op2 = document.createElement('option');
-	op2.innerText = 'Electronics';
+	op2.innerHTML = 'Electronics';
 	const op3 = document.createElement('option');
 	op3.innerText = 'Finance and Mgmt';
 	const op4 = document.createElement('option');
@@ -176,6 +177,29 @@ function rearrange(result, newDiv) {
 			let li = curNode.childNodes[2];
 			li.style.setProperty('background-color', '#428bca', 'important');
 			li.style.setProperty('border-color', '#428bca', 'important');
+		}
+	}
+
+	const list = $('.clearfix');
+	const select = $('#domain');
+	const domainSelected = new Set(
+		Array.from(select.querySelectorAll('option:checked'), (e) =>
+			e.value.replace(' ', '')
+		)
+	);
+
+	for (let i = 0; i < list.length; i++) {
+		const item = list[i];
+		if (item.childNodes[2].style.backgroundColor === 'red') {
+			if (
+				!domainSelected.has(
+					item.childNodes[0].innerText.split('-')[0].replace(' ', '')
+				)
+			) {
+				item.parentNode.appendChild(item);
+			}
+		} else {
+			break;
 		}
 	}
 }
