@@ -27,7 +27,7 @@ function createUI() {
 	step2.innerText =
 		'2. When a station in the preference list below is not found in the CSV file, then select which all domains stations you want to see on the top. The non selected domains stations will therefore be pushed to the last.';
 	const step3 = document.createElement('h5');
-	step3.innerText = '3. Click on Apply Changes! button.';
+	step3.innerText = '3. "Load Info" button will load related information from problem bank. "Rearrange" button will rearrange preferences';
 	step1.style.margin = '0px';
 	step2.style.margin = '0px';
 	step3.style.margin = '0px';
@@ -94,17 +94,30 @@ function createUI() {
 	domainDiv.style.marginRight = '10%';
 	newDiv.appendChild(domainDiv);
 
-	const button = document.createElement('button');
-	button.classList.add('btn');
-	button.classList.add('col-xs-2');
-	button.classList.add('btn-primary');
-	button.innerText = 'Apply Changes!';
-	button.style.fontSize = '16px';
-	button.addEventListener('click', function (e) {
+	const RearrangeButton = document.createElement('button');
+	RearrangeButton.classList.add('btn');
+	RearrangeButton.classList.add('col-xs-2');
+	RearrangeButton.classList.add('btn-primary');
+	RearrangeButton.innerText = 'Rearrange';
+	RearrangeButton.style.fontSize = '16px';
+	RearrangeButton.addEventListener('click', function (e) {
 		e.preventDefault();
 		handleClick(input, newDiv);
 	});
-	newDiv.appendChild(button);
+	newDiv.appendChild(RearrangeButton);
+
+	const LoadInformation = document.createElement('button');
+	LoadInformation.classList.add('btn');
+	LoadInformation.classList.add('col-xs-2');
+	LoadInformation.classList.add('btn-primary');
+	LoadInformation.innerText = 'Load Info';
+	LoadInformation.style.fontSize = '16px';
+	LoadInformation.style.marginTop= '16px';
+	LoadInformation.addEventListener('click', function (e) {
+		e.preventDefault();
+		handleClickLoadInfo(input, newDiv);
+	});
+	newDiv.appendChild(LoadInformation);
 
 	const textDiv2 = document.createElement('a');
 	textDiv2.href = 'https://psitseasy.ml/projectBank';
@@ -152,6 +165,35 @@ function handleClick(input, newDiv) {
 	}
 }
 
+function handleClickLoadInfo(input, newDiv) {
+	if (
+		input.files.length === 0 ||
+		input.files[0].name.split('.')[
+			input.files[0].name.split('.').length - 1
+		] !== 'csv'
+	) {
+		console.log(input.files);
+		handleError(newDiv);
+	} else {
+		let reader = new FileReader();
+
+		reader.readAsText(input.files[0]);
+
+		reader.onload = function () {
+			//colorAllRed();
+
+			let result = CSVToArray(reader.result);
+
+			PopulateInfo(result);
+		};
+
+		reader.onerror = function () {
+			console.log(reader.error);
+			handleError(newDiv);
+		};
+	}
+}
+
 function handleSuccess(newDiv) {
 	const successDiv = document.createElement('h5');
 	successDiv.innerText = 'Successfully Rearranged!';
@@ -164,6 +206,23 @@ function handleSuccess(newDiv) {
 	warningDiv.style.color = 'red';
 	warningDiv.classList.add('col-xs-12');
 	newDiv.appendChild(warningDiv);
+}
+
+function PopulateInfo(result){
+	let dict = ArrayToDictIndex(result);
+
+	let prefList = $('#Div1').childNodes[1];
+	
+	for(var i=0; i<prefList.childNodes.length; i++)
+	{
+		var stationId = prefList.childNodes[i].childNodes[0].getAttribute('spn');
+
+		if(dict[stationId]==undefined) continue;
+
+		var station = result[dict[stationId]]
+		prefList.childNodes[i].childNodes[0].innerText = `${station[3]}, ${station[1]}, ${station[2]}, ₹${station[5]}, (${station[4]})`;
+	}
+	
 }
 
 function rearrange(result, newDiv) {
@@ -255,6 +314,15 @@ function correctRanks() {
 	$('#sortable_nav > li').forEach((li, index) => {
 		li.querySelector('.sortable-number span').innerText = index + 1;
 	});
+}
+
+// Create a dictionary containing station Id and its location in array
+function ArrayToDictIndex(arr){
+	var dict = {};
+	for(var i=0; i<arr.length; i++){
+		dict[arr[i][0]] = i;
+	}
+	return dict;
 }
 
 function CSVToArray(strData, strDelimiter) {
