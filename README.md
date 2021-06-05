@@ -44,7 +44,7 @@
 
 ## :new: New Features
 
--   There were many feedback on many stations were not there in problem bank CSV which was there in preference list page and therefore all of like ~60 stations was on top with red color on them and it was tough to drag and drop them to wherever you wanted. Therefore we made some new features to help you out rearranging them by asking the domain preferences and putting only the needed domain stations on top making it easy to rearrange.
+-   There was many feedback on many stations were not there in project bank CSV file, which was there in the preference list page, and therefore all of like ~60 missing stations was on top with red color on them and it was tough to drag and drop them to wherever you wanted(especially to the end if the station was now your domain). Therefore we made some new features to help you out rearranging them by asking the domain preferences and putting only the needed domain stations on top and others on the bottom making it easy for you to rearrange.
 
 ## :warning: Disclaimer:
 
