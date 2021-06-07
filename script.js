@@ -94,6 +94,21 @@ function createUI() {
 	domainDiv.style.marginRight = '10%';
 	newDiv.appendChild(domainDiv);
 
+	const switchDiv = document.createElement('div');
+	switchDiv.classList.add('col-xs-2');
+	switchDiv.classList.add('custom-control');
+	switchDiv.classList.add('custom-switch');
+	const switchInput = document.createElement('input');
+	switchInput.type = 'checkbox';
+	switchInput.id = 'isPDF';
+	switchInput.classList.add('custom-control-input');
+	const switchLabel = document.createElement('label');
+	switchLabel.innerHTML = 'Check for PDF';
+	switchLabel.classList.add('custom-control-label');
+	switchDiv.appendChild(switchInput);
+	switchDiv.appendChild(switchLabel);
+	newDiv.appendChild(switchDiv);
+
 	const button = document.createElement('button');
 	button.classList.add('btn');
 	button.classList.add('col-xs-2');
@@ -167,16 +182,46 @@ function handleSuccess(newDiv) {
 }
 
 function rearrange(result, newDiv) {
-	for (let i = 1; i < result.length; i++) {
-		const curNode = $(`[spn="${result[i][0]}"]`).parentNode;
-		if (curNode === undefined) {
-			console.log(i, result[i][0]);
-			//handleError(newDiv);
-		} else {
-			curNode.parentNode.appendChild(curNode);
-			let li = curNode.childNodes[2];
-			li.style.setProperty('background-color', '#428bca', 'important');
-			li.style.setProperty('border-color', '#428bca', 'important');
+	if ($('#isPDF').checked) {
+		for (let i = 1; i < result.length; i++) {
+			let curNode = $(
+				`[cname*="${result[i][1]}, ${result[i][2]}"]`
+			).parentNode;
+			if (curNode === undefined) {
+				curNode = $(
+					`[cname*="${result[i][1]} , ${result[i][2]}"]`
+				).parentNode;
+			}
+			if (curNode === undefined) {
+				console.log(i, result[i][0]);
+				//handleError(newDiv);
+			} else {
+				curNode.parentNode.appendChild(curNode);
+				let li = curNode.childNodes[2];
+				li.style.setProperty(
+					'background-color',
+					'#428bca',
+					'important'
+				);
+				li.style.setProperty('border-color', '#428bca', 'important');
+			}
+		}
+	} else {
+		for (let i = 1; i < result.length; i++) {
+			const curNode = $(`[spn="${result[i][0]}"]`).parentNode;
+			if (curNode === undefined) {
+				console.log(i, result[i][0]);
+				//handleError(newDiv);
+			} else {
+				curNode.parentNode.appendChild(curNode);
+				let li = curNode.childNodes[2];
+				li.style.setProperty(
+					'background-color',
+					'#428bca',
+					'important'
+				);
+				li.style.setProperty('border-color', '#428bca', 'important');
+			}
 		}
 	}
 
